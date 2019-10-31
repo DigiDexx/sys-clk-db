@@ -33,6 +33,18 @@ Those presets comes from our community in the RetroNX Discord
 in the channel `#oc-perf-submissions`
 
 ```ini
+; A Hat in Time (US)
+; Boost clocks for noticably faster loading screens and better framerate in handheld
+; The unfinished Nyakuza included with Seal the Deal's romfs now runs at 30fps
+[010056E00853A000]
+docked_cpu=1785
+docked_gpu=844
+handheld_charging_cpu=1785
+handheld_charging_gpu=844
+handheld_mem=1600
+```
+
+```ini
 ; ARMS
 ; Underclock to save battery
 [01009B500007C000]
@@ -65,6 +77,15 @@ handheld_mem=665
 [0100052004384000]
 handheld_cpu=612
 handheld_gpu=153
+handheld_mem=665
+```
+
+```ini
+; Baba Is You
+; Underclock for a massive battery saving.
+[01002CD00A51C000]
+handheld_cpu=612
+handheld_gpu=76
 handheld_mem=665
 ```
 
@@ -144,6 +165,13 @@ handheld_mem=800
 ```
 
 ```ini
+; Darksiders II Deathinitive Edition
+; Improve resolutions and performance for handheld mode
+[010071800BA98000]
+handheld_gpu=460
+```
+
+```ini
 ; DOOM
 ; Better Framerate (Adjust dock gpu between 768-921 based on your comfort level)
 ; via gbatemp thread
@@ -153,6 +181,91 @@ handheld_mem=1600
 handheld_charging_official_gpu=768
 docked_cpu=1224
 docked_gpu=844
+```
+
+```ini
+;Doom 1993
+;Underclock to save battery with bare minimum settings
+[010018900DD00000]
+handheld_cpu=612
+handheld_gpu=76
+```
+
+```ini
+;Doom II Classic
+;Underclock to save battery with bare minimum settings
+[0100D4F00DD02000]
+handheld_cpu=612
+handheld_gpu=76
+```
+
+```ini
+; Dragon Dogma Dark Arisen
+; Better Framerate
+[010032C00AC58800]
+docked_cpu=1224
+docked_gpu=844
+handheld_charging_cpu=1122
+handheld_charging_gpu=768
+handheld_charging_official_cpu=1122
+handheld_charging_official_gpu=768
+handheld_cpu=1020
+handheld_gpu=460
+handheld_mem=1600
+```
+
+```ini
+; Dragon Dogma Dark Arisen JPN
+; Better Framerate
+[010057E00AC56000]
+docked_cpu=1224
+docked_gpu=844
+handheld_charging_cpu=1122
+handheld_charging_gpu=768
+handheld_charging_official_cpu=1122
+handheld_charging_official_gpu=768
+handheld_cpu=1020
+handheld_gpu=460
+handheld_mem=1600
+```
+
+```ini
+; DRAGON QUEST XI S: ECHOES OF AN ELUSIVE AGE – DEFINITIVE EDITION
+; Improves stutter when moving the camara at high speed and improves framerate of far NPC animation (15->30).
+[01006C300E9F0000]
+docked_cpu=1581
+```
+
+```ini
+; Dragon Quest Builders 2
+; Fixed Docked & Handheld FPS stutter
+[010042000A986000]
+docked_cpu=1224
+docked_gpu=768
+handheld_gpu=460
+handheld_charging_gpu=537
+```
+
+```ini
+; FAST RMX
+; Improve resolutions for handheld mode
+[01009510001CA000]
+handheld_gpu=460
+handheld_charging_gpu=768
+handheld_charging_mem=1600
+```
+
+```ini
+; Fire Emblem Three Houses 
+; Provides a smoother framerate whilst undocked and better framerate docked
+[010055D009F78000]
+docked_cpu=1224
+docked_gpu=844
+handheld_charging_cpu=1224
+handheld_charging_gpu=768
+handheld_cpu=1020
+handheld_gpu=460
+handheld_mem=1600
 ```
 
 ```ini
@@ -198,6 +311,22 @@ handheld_mem=1600
 ```
 
 ```ini
+; Grandia II
+; massively improved handheld framerate
+[0100E0600BBC8002]
+handheld_gpu=460
+```
+
+```ini
+; Graveyard Keeper
+; Underclock to save battery (slightly increases loading times)
+[0100B6800B5C8000]
+handheld_cpu=816
+handheld_gpu=230    
+handheld_mem=800
+```
+
+```ini
 ; Grip
 ; This enables the game to actually run at 30FPS
 [0100459009A2A000]
@@ -231,12 +360,42 @@ handheld_mem=1600
 ```
 
 ```ini
+; The Legend of Zelda: Link's Awakening
+; Improved framerate in handheld, resolves most framerate issues in handheld_charging
+[01006BB00C6F0000]
+handheld_charging_gpu=768
+handheld_gpu=460
+handheld_mem=1600
+```
+
+```ini
+; Lines Infinite
+; save them batteries
+[0100A9000F17E000]
+handheld_cpu=612
+handheld_gpu=76
+handheld_mem=665
+```
+
+```ini
 ; Mario Kart 8 Deluxe
 ; Underclock to save battery
 [0100152000022000]
 handheld_cpu=918
 handheld_gpu=230
 handheld_mem=1065
+```
+
+```ini
+; MARVEL ULTIMATE ALLIANCE 3
+; Better framerate in handheld mode
+[010060700AC50000]
+handheld_charging_cpu=1224
+handheld_charging_gpu=768
+handheld_charging_mem=1600
+handheld_cpu=1020
+handheld_gpu=460
+handheld_mem=1600
 ```
 
 ```ini
@@ -309,6 +468,23 @@ handheld_gpu=76
 ```
 
 ```ini
+; Override: Mech City Brawl
+; Improve resolutions for handheld mode
+[0100F2600EA72000]
+handheld_gpu=460
+handheld_charging_gpu=768
+handheld_charging_mem=1600
+```
+
+```ini
+; Pillars of Eternity
+; Resolves some issues with framepacing
+[0100D6200E130000]
+handheld_cpu=1581
+docked_cpu=1581
+```
+
+```ini
 ; Pokemon Lets go Eevee
 ; Helps reduce UI slowdowns as well as varidian forest.
 [0100187003A36000]
@@ -355,6 +531,13 @@ handheld_mem=1600
 ```
 
 ```ini
+; RESIDENT EVIL REVELATIONS 2
+; Reduce fps drops in some areas for handheld
+[010095300212A000]
+handheld_gpu=460
+```
+
+```ini
 ; RiME
 ; Better Framerate. Still some slowdowns
 [0100A62002042000]
@@ -393,6 +576,15 @@ handheld_mem=665
 ```
 
 ```ini
+; Starlink: Battle for Atlas
+; Improve resolutions and performance for handheld mode
+[01002CC003FE6000]
+handheld_charging_gpu=768
+handheld_mem=1600
+handheld_gpu=460
+```
+
+```ini
 ; Super Mario Maker 2
 ; Underclock to save battery (slightly increases loading times)
 [01009B90006DC000]
@@ -408,6 +600,14 @@ handheld_mem=1065
 handheld_cpu=612
 handheld_gpu=230
 handheld_mem=800
+```
+
+```ini
+;Super Nintendo - Nintendo Switch Online
+;Underclock to save battery with bare minimum settings
+[01008D300C50C000]
+handheld_cpu=612
+handheld_gpu=76
 ```
 
 ```ini
@@ -456,6 +656,14 @@ handheld_gpu=460
 handheld_cpu=612
 handheld_gpu=76
 handheld_mem=665
+```
+
+```ini
+;Turok 2: Seeds of Evil
+;Underclock to save battery
+[0100CDC00D8D6000]
+handheld_cpu=612
+handheld_gpu=153
 ```
 
 ```ini
@@ -513,12 +721,36 @@ handheld_cpu=1224
 handheld_gpu=460
 handheld_mem=1600
 ```
+```ini
+; The Witcher 3 - Complete Edition (US)
+; Overclock RAM for smoother framerate in handheld mode
+; Improve resolutions and performance in handheld_charging
+; EU version: [01003D100E9C6000]
+[0100BFE00E9CA000]
+handheld_mem=1600
+handheld_charging_gpu=768
+```
 
 ```ini
 ; Wolfenstein II: The New Colossus
 ; Provides higher resolution with more stable framerate in undocked mode
 [01009040091E0000]
 handheld_cpu=1224
+handheld_gpu=460
+handheld_mem=1600
+```
+```ini
+; Xenoblade Chronicles 2
+; Improves performance and resolution in handheld
+[0100E95004038000]
+handheld_gpu=460
+handheld_mem=1600
+```
+
+```ini
+; Xenoblade Chronicles 2 Torna
+; Improves performance and resolution in handheld 
+[0100C9F009F7A000]
 handheld_gpu=460
 handheld_mem=1600
 ```
